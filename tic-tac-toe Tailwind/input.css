@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    .prp{ /* repeated style in cells */
+
+        @apply flex justify-center items-center cursor-pointer relative h-28 w-28;
+
+    }

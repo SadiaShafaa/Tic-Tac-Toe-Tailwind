@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main/output.css" rel="stylesheet">
+    <title>Tic-Tac-Toe</title>   
+</head>
+
+<body>
+
+    <!-- Board -->
+
+    <div id="board" class="flex mx-auto h-screen w-screen justify-center items-center">
+        <div class="h-fit w-fit grid grid-cols-3 justify-items-center justify-center items-center content-center">
+
+            <div class="cell border-black border-r-2 border-b-2 prp">
+                <img src="img/x-png-42436.png" class="hidden X object-cover cursor-not-allowed h-14 w-14">
+                <img src="img/circle-41667.png" class="hidden O object-cover cursor-not-allowed h-14 w-14">
+            </div>
+            <div class="cell border-black border-r-2 border-b-2 prp">
+                <img src="img/x-png-42436.png" class="hidden X object-cover cursor-not-allowed h-14 w-14">
+                <img src="img/circle-41667.png" class="hidden O object-cover cursor-not-allowed h-14 w-14">
+            </div>
+            <div class="cell border-black border-b-2 prp">
+                <img src="img/x-png-42436.png" class="hidden X object-cover cursor-not-allowed h-14 w-14">
+                <img src="img/circle-41667.png" class="hidden O object-cover cursor-not-allowed h-14 w-14">
+            </div>
+            <div class="cell border-black border-r-2 border-b-2 prp">
+                <img src="img/x-png-42436.png" class="hidden X object-cover cursor-not-allowed h-14 w-14">
+                <img src="img/circle-41667.png" class="hidden O object-cover cursor-not-allowed h-14 w-14">
+            </div>
+            <div class="cell border-black border-r-2 border-b-2 prp">
+                <img src="img/x-png-42436.png" class="hidden X object-cover cursor-not-allowed h-14 w-14">
+                <img src="img/circle-41667.png" class="hidden O object-cover cursor-not-allowed h-14 w-14">
+            </div>
+            <div class="cell border-black border-b-2 prp">
+                <img src="img/x-png-42436.png" class="hidden X object-cover cursor-not-allowed h-14 w-14">
+                <img src="img/circle-41667.png" class="hidden O object-cover cursor-not-allowed h-14 w-14">
+            </div>
+            <div class="cell border-black border-r-2 prp">
+                <img src="img/x-png-42436.png" class="hidden X object-cover cursor-not-allowed h-14 w-14">
+                <img src="img/circle-41667.png" class="hidden O object-cover cursor-not-allowed h-14 w-14">
+            </div>
+            <div class="cell border-black border-r-2 prp">
+                <img src="img/x-png-42436.png" class="hidden X object-cover cursor-not-allowed h-14 w-14">
+                <img src="img/circle-41667.png" class="hidden O object-cover cursor-not-allowed h-14 w-14">
+            </div>
+            <div class="cell border-black prp">
+                <img src="img/x-png-42436.png" class="hidden X object-cover cursor-not-allowed h-14 w-14">
+                <img src="img/circle-41667.png" class="hidden O object-cover cursor-not-allowed h-14 w-14">
+            </div>
+    
+    <!-- Winning Page-->
+        <div class="win-page hidden flex top-0 left-0 right-0 bottom-0 fixed 
+         flex-col justify-center items-center bg-black bg-opacity-80">
+            <div winningText class="text-white font-bold text-3xl"></div>
+            <button id="bt"
+            class="transition duration-300 px-4 py-2 m-4
+            bg-white rounded-full
+            border-2 border-gray-800 
+            hover:bg-blue-900
+            hover:border-white
+            hover:text-white
+            hover:border-double
+            hover:shadow-md
+            hover:scale-125">
+            Restart
+            </button>
+        </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

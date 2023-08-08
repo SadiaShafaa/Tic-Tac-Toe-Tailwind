@@ -1,0 +1,16 @@
+{
+  "name": "tic-tac-toe-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./main/output.css ",
+    "watch": "tailwindcss -i ./input.css -o ./main/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
