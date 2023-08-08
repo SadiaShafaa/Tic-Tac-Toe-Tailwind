@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game
 
-![Tic-Tac-Toe Screenshot](1.png)
+![Tic-Tac-Toe Screenshot](p.png)
 
 ## Description
 
@@ -19,8 +19,8 @@ This is a simple web-based Tic-Tac-Toe game built using HTML, CSS, and JavaScrip
 4. The game will detect a winning combination or a draw.
 5. Click the "Restart" button to start a new game.
 
-![Tic-Tac-Toe Screenshot](2.png)
-![Tic-Tac-Toe Screenshot](3.png)
+![Tic-Tac-Toe Screenshot](i.png)
+![Tic-Tac-Toe Screenshot](c.png)
 
 ## Technologies Used
 
