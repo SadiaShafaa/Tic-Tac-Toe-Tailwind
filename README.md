@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game
 
-![Tic-Tac-Toe Screenshot]((1.png)(2.png)(3.png)(4.png))
+![Tic-Tac-Toe Screenshot](1.png)
 
 ## Description
 
